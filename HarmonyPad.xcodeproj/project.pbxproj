@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3715C7672099D8EB0088BC94 /* GlobalVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3715C7662099D8EB0088BC94 /* GlobalVar.swift */; };
+		372992B92091C58E0029F7A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372992B82091C58E0029F7A3 /* AppDelegate.swift */; };
+		372992BB2091C58E0029F7A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372992BA2091C58E0029F7A3 /* ViewController.swift */; };
+		372992BE2091C58E0029F7A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372992BC2091C58E0029F7A3 /* Main.storyboard */; };
+		372992C02091C58F0029F7A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372992BF2091C58F0029F7A3 /* Assets.xcassets */; };
+		372992C32091C58F0029F7A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372992C12091C58F0029F7A3 /* LaunchScreen.storyboard */; };
+		372992DA2091EB710029F7A3 /* AudioUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372992D52091EB700029F7A3 /* AudioUtils.swift */; };
+		372992DB2091EB710029F7A3 /* AudioUnitMIDISynth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372992D62091EB700029F7A3 /* AudioUnitMIDISynth.swift */; };
+		372992DC2091EB710029F7A3 /* AVAudioUnitDistortionEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372992D72091EB700029F7A3 /* AVAudioUnitDistortionEffect.swift */; };
+		372992DD2091EB710029F7A3 /* AVAudioUnitMIDISynth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372992D82091EB700029F7A3 /* AVAudioUnitMIDISynth.swift */; };
+		372992DE2091EB710029F7A3 /* SynthSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372992D92091EB700029F7A3 /* SynthSequence.swift */; };
+		37961FFC209708AA00B5182F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37961FFB209708AA00B5182F /* Settings.swift */; };
+		37C430D8209A085B00033BF0 /* gs_instruments.dls in Resources */ = {isa = PBXBuildFile; fileRef = 37C430D7209A085A00033BF0 /* gs_instruments.dls */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3715C7662099D8EB0088BC94 /* GlobalVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVar.swift; sourceTree = "<group>"; };
+		372992B52091C58E0029F7A3 /* HarmonyPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarmonyPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		372992B82091C58E0029F7A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		372992BA2091C58E0029F7A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		372992BD2091C58E0029F7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		372992BF2091C58F0029F7A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		372992C22091C58F0029F7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		372992C42091C58F0029F7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372992D52091EB700029F7A3 /* AudioUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioUtils.swift; sourceTree = "<group>"; };
+		372992D62091EB700029F7A3 /* AudioUnitMIDISynth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioUnitMIDISynth.swift; sourceTree = "<group>"; };
+		372992D72091EB700029F7A3 /* AVAudioUnitDistortionEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVAudioUnitDistortionEffect.swift; sourceTree = "<group>"; };
+		372992D82091EB700029F7A3 /* AVAudioUnitMIDISynth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVAudioUnitMIDISynth.swift; sourceTree = "<group>"; };
+		372992D92091EB700029F7A3 /* SynthSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynthSequence.swift; sourceTree = "<group>"; };
+		37961FFB209708AA00B5182F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		37C430D7209A085A00033BF0 /* gs_instruments.dls */ = {isa = PBXFileReference; lastKnownFileType = file; path = gs_instruments.dls; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		372992B22091C58E0029F7A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		372992AC2091C58E0029F7A3 = {
+			isa = PBXGroup;
+			children = (
+				372992B72091C58E0029F7A3 /* HarmonyPad */,
+				372992B62091C58E0029F7A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		372992B62091C58E0029F7A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				372992B52091C58E0029F7A3 /* HarmonyPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		372992B72091C58E0029F7A3 /* HarmonyPad */ = {
+			isa = PBXGroup;
+			children = (
+				372992DF2091F0EC0029F7A3 /* FromOutside */,
+				372992B82091C58E0029F7A3 /* AppDelegate.swift */,
+				372992BA2091C58E0029F7A3 /* ViewController.swift */,
+				3715C7662099D8EB0088BC94 /* GlobalVar.swift */,
+				37961FFB209708AA00B5182F /* Settings.swift */,
+				372992BC2091C58E0029F7A3 /* Main.storyboard */,
+				372992BF2091C58F0029F7A3 /* Assets.xcassets */,
+				372992C12091C58F0029F7A3 /* LaunchScreen.storyboard */,
+				372992C42091C58F0029F7A3 /* Info.plist */,
+			);
+			path = HarmonyPad;
+			sourceTree = "<group>";
+		};
+		372992DF2091F0EC0029F7A3 /* FromOutside */ = {
+			isa = PBXGroup;
+			children = (
+				372992D62091EB700029F7A3 /* AudioUnitMIDISynth.swift */,
+				37C430D7209A085A00033BF0 /* gs_instruments.dls */,
+				372992D52091EB700029F7A3 /* AudioUtils.swift */,
+				372992D72091EB700029F7A3 /* AVAudioUnitDistortionEffect.swift */,
+				372992D82091EB700029F7A3 /* AVAudioUnitMIDISynth.swift */,
+				372992D92091EB700029F7A3 /* SynthSequence.swift */,
+			);
+			path = FromOutside;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		372992B42091C58E0029F7A3 /* HarmonyPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372992C72091C58F0029F7A3 /* Build configuration list for PBXNativeTarget "HarmonyPad" */;
+			buildPhases = (
+				372992B12091C58E0029F7A3 /* Sources */,
+				372992B22091C58E0029F7A3 /* Frameworks */,
+				372992B32091C58E0029F7A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarmonyPad;
+			productName = truc2;
+			productReference = 372992B52091C58E0029F7A3 /* HarmonyPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		372992AD2091C58E0029F7A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Nicolas Klarsfeld";
+				TargetAttributes = {
+					372992B42091C58E0029F7A3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 372992B02091C58E0029F7A3 /* Build configuration list for PBXProject "HarmonyPad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 372992AC2091C58E0029F7A3;
+			productRefGroup = 372992B62091C58E0029F7A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				372992B42091C58E0029F7A3 /* HarmonyPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		372992B32091C58E0029F7A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C430D8209A085B00033BF0 /* gs_instruments.dls in Resources */,
+				372992C32091C58F0029F7A3 /* LaunchScreen.storyboard in Resources */,
+				372992C02091C58F0029F7A3 /* Assets.xcassets in Resources */,
+				372992BE2091C58E0029F7A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372992B12091C58E0029F7A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3715C7672099D8EB0088BC94 /* GlobalVar.swift in Sources */,
+				372992DB2091EB710029F7A3 /* AudioUnitMIDISynth.swift in Sources */,
+				372992BB2091C58E0029F7A3 /* ViewController.swift in Sources */,
+				372992DC2091EB710029F7A3 /* AVAudioUnitDistortionEffect.swift in Sources */,
+				372992DA2091EB710029F7A3 /* AudioUtils.swift in Sources */,
+				372992DE2091EB710029F7A3 /* SynthSequence.swift in Sources */,
+				37961FFC209708AA00B5182F /* Settings.swift in Sources */,
+				372992DD2091EB710029F7A3 /* AVAudioUnitMIDISynth.swift in Sources */,
+				372992B92091C58E0029F7A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		372992BC2091C58E0029F7A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				372992BD2091C58E0029F7A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		372992C12091C58F0029F7A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				372992C22091C58F0029F7A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		372992C52091C58F0029F7A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		372992C62091C58F0029F7A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		372992C82091C58F0029F7A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYQXG5B873;
+				INFOPLIST_FILE = HarmonyPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicokla.HarmonyPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		372992C92091C58F0029F7A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYQXG5B873;
+				INFOPLIST_FILE = HarmonyPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicokla.HarmonyPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		372992B02091C58E0029F7A3 /* Build configuration list for PBXProject "HarmonyPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372992C52091C58F0029F7A3 /* Debug */,
+				372992C62091C58F0029F7A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372992C72091C58F0029F7A3 /* Build configuration list for PBXNativeTarget "HarmonyPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372992C82091C58F0029F7A3 /* Debug */,
+				372992C92091C58F0029F7A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 372992AD2091C58E0029F7A3 /* Project object */;
+}
